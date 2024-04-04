@@ -17,7 +17,6 @@
 		"manifest-src": "'self'",
 		"media-src": "'self'",
 		"object-src": "'none'",
-		"prefetch-src": "'self'",
 		"script-src": "'self'",
 		"style-src": "'self'",
 		"worker-src": "'self'",
@@ -79,16 +78,6 @@ Note that `'self'` is in quotes. This is a CSP thing and `next-safe` does not ha
 {
 	contentSecurityPolicy: {
 		"upgrade-insecure-requests": [],
-	},
-}
-```
-
-#### Disable the `prefetch-src` directive
-
-```js
-{
-	contentSecurityPolicy: {
-		"prefetch-src": false,
 	},
 }
 ```

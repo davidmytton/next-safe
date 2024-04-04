@@ -18,7 +18,6 @@ nextSafe({
 		"manifest-src": "'self'",
 		"media-src": "'self'",
 		"object-src": "'none'",
-		"prefetch-src": "'self'",
 		"script-src": "'self'",
 		"style-src": "'self'",
 		"worker-src": "'self'",
